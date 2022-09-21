@@ -1,0 +1,48 @@
+div.navbar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  width: 100%;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--main-text-color);
+  display: flex;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 0px;
+  list-style-type: disc;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+  display: flex;
+}
+
+.navList > li {
+  justify-content: center;
+  align-items: center;
+}
+
+.navList {
+  flex-direction: row;
+}
+
+nav {
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navLogo {
+  display: flex;
+  margin: 0 auto;
+  max-width: 275px;
+}
