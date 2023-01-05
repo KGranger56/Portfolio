@@ -1,13 +1,31 @@
 :root {
-  --main-background-color: #242831;
-  --main-text-color: #fdfdfd;
-  --main-action-color: #ea4e40;
+  --main-div-background-color: #00204a;
+  --main-background-color: #001127;
+  --main-action-color: #00bbf0;
+  --main-text-color: #effbff;
+  --main-dark-blue-color: #005792;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: var(--main-action-color);
 }
 
 .app {
   background-color: var(--main-background-color);
-  padding-top: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 100%;
+  overflow: hidden;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+  display: flex;
+}
+
+.body {
+  overflow-x: hidden;
+  padding-left: 35rem;
 }

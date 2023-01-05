@@ -9,28 +9,28 @@ function Navbar() {
       <nav>
         <ul className="navList">
           <li>
-            <Link to="/home" className="navHome">
-              Home
+            <Link to="/home">
+              <button className="navHome">Home</button>
             </Link>
           </li>
           <li>
-            <Link to="/about" className="navAbout">
-              About
+            <Link to="/about">
+              <button className="navAbout">About</button>
             </Link>
           </li>
           <li>
-            <Link to="/education" className="navEducation">
-              Education
+            <Link to="/education">
+              <button className="navEducation">Education</button>
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className="navPortfolio">
-              Portfolio
+            <Link to="/portfolio">
+              <button className="navPortfolio">Portfolio</button>
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="navContact">
-              Contact
+            <Link to="/contact">
+              <button className="navContact">Contact</button>
             </Link>
           </li>
         </ul>
